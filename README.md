@@ -1,6 +1,6 @@
 # Hindsite (Developer Challenge)
 
-For this challenge you will be creating highly simplified version of the Hindsite web app from scratch using Python Django backend and React frontend. This is a functional challenge, so you don't need to worry about design too much. You should use Git as you build your solution. Notes, this doesn't need to be hosted on any services such as AWS/Azure.
+For this challenge you will be creating highly simplified version of the Hindsite web app from scratch using Python Django backend and React frontend. This is a functional challenge, so you don't need to worry about design too much. You should use Git as you build your solution. Note, this doesn't need to be hosted on any services such as AWS/Azure.
 
 Your app is to have three models: users, organisations, and posts. Your database should closely resemble the following entity-relationship diagram:
 

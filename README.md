@@ -1,6 +1,6 @@
-# Hindsite (Developer Challenge)
+# HINDSITE (Developer Challenge)
 
-For this challenge you will be creating highly simplified version of the Hindsite web app from scratch using Python Django backend and React frontend. This is a functional challenge, so you don't need to worry about design too much. You should use Git as you build your solution. Note, this doesn't need to be hosted on any services such as AWS/Azure.
+For this challenge you will be creating highly simplified version of the Hindsite web app from scratch using Ruby on Rails. This is a functional challenge, so you don't need to worry about design too much. You should use Git as you build your solution. Note, this doesn't need to be hosted on any services such as AWS/Azure, just show us it running on your machine!
 
 Your app is to have three models: users, organisations, and posts. Your database should closely resemble the following entity-relationship diagram:
 
@@ -49,10 +49,13 @@ Allow users to filter which posts are visible based on employee or a date range 
 5. Multiple organisations (tricky)
 Extend organisation functionality to allow users to belong to more than one organisation. You will need to rethink the posts model. Posts currently belong to a user (who belongs to a single organisation). If there are multiple organisations involved, this falls apart, because you don't know which organisation the user posted to.
 
-6. Functional or Unit tests
+7. React frontend
+Use React functional components to build the frontend on your Rails application.
+
+7. Functional or Unit tests
 Adding tests is a good idea. We don't mandate that you write any for this challenge, but feel free to go ahead and write some tests for your code.
 
-7. Your own idea
+8. Your own idea
 Feel free to add a feature of your own devising.
 
 You will be judged on the the appropriate use of database constraints, your choice of data types, working data validation, the general quality of your code, and how closely your solution matches this spec. Be a show off! Impress us with your strong command of relational databases and idiomatic code.
